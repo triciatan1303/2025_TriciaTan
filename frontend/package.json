@@ -9,7 +9,7 @@
     "react-scripts": "^5.0.1"
   },
   "scripts": {
-    "start": "react-scripts start"
+    "start": "HOST=0.0.0.0 react-scripts start"
   },
   "proxy": "http://backend:8081",
   "browserslist": {
