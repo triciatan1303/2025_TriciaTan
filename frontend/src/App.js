@@ -16,7 +16,7 @@ function App() {
       .filter(d => !isNaN(d));
 
     try {
-      const response = await axios.post('/api/coin-change', {
+      const response = await axios.post('http://20.123.88.146:8081/api/coin-change', {
         targetAmount: parseFloat(target),
         denominations: denomArray
       });
